@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Luca Pulvirenti</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+
+    <link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/footer.css">
+	<!--
+		<script>
+			// Adjust the position of the section when a link in the header is clicked
+			window.addEventListener("hashchange", function() {
+			window.scrollTo(window.scrollX, window.scrollY - 50); // Adjust the offset to match your header height
+			});
+		</script>
+	-->
+	
+	<script>
+		var lastScrollTop = 0;
+		window.addEventListener("scroll", function(){
+		  var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		  if (currentScrollTop > lastScrollTop){
+			// Scrolled down
+			document.querySelector(".header").classList.add("hidden");
+		  } else {
+			// Scrolled up
+			document.querySelector(".header").classList.remove("hidden");
+		  }
+		  lastScrollTop = currentScrollTop;
+		});
+	</script>
+
+  </head>
+  
+  <body>
+    <header class="header">
+		<div class="left_section">
+			<img class="company_logo"src="icons/company_logo.png">
+			<h1 class="company_title"> Company Title </h1>
+
+		</div>
+	
+		<div class="right_section">
+	
+			<a class="link_home" href="#home">Home </a>
+			<a class="link_game" href="#game">Game </a>
+			<a class="link_about" href="#about">About </a>
+			<a class="link_news" href="#news">News </a>
+			
+			
+
+			<img class="discord_logo" src="icons/logo_discord.png">
+			<img class="linkedin_logo" src="icons/linkedin_logo.png">
+			<img class="youtube_logo" src="icons/youtube_logo.png">
+			<img class="facebook_logo"src="icons/facebook_logo.png">
+			<img class="instagram_logo"src="icons/instagram_logo.png">
+
+		</div>
+	</header>
+
+	<main class="main">
+		<section id="home" class="home">
+		<div class="home_explaination">
+			<h1 class="home_title"> Company Name </h1>
+			<p class="home_description">UNITING GAMERS AROUND THE WORLD THROUGH PLAY</p>
+		</div>
+		</section>
+
+		<section id= "game" class="game">
+			<div class="game_title">
+				<h1> Game Story Summary </h1>
+			</div>
+
+			<div class="game_description">
+
+				<p> Summary of the story Hello world 
+					how are tou nfdsnong fsdjnfosn 
+					dnjfbdsjonfodniofnd jdsnfjsdnjfnsd 
+					fjsdnjfnjsdnfj djsfnjsndjfn jdsnfjsdnjf 
+					djfnjdsfnsdnfdsj dkofmkda f adjfkskmfkmsdkf 
+					dskfksdmfk pmdpsmfkpa dkf dskmfkdamkf dks 
+					fkdskfmkdmkfmka fm sfkdsmfkmsdk mfpsmdfmms 
+					fksd fkmsdp 
+					Summary of the story Hello world 
+					how are tou nfdsnong fsdjnfosn 
+					dnjfbdsjonfodniofnd jdsnfjsdnjfnsd 
+					fjsdnjfnjsdnfj djsfnjsndjfn jdsnfjsdnjf 
+
+				</p>
+				<button class="button_link_libro">
+					Link to the book
+				</button>
+			</div>
+			
+			
+	
+		</section>
+
+
+		<section id="about" class="about">
+			<h1 class="about_title"> About the Game</h1>
+			
+			
+		</section>
+		<section id= "news" class="news">
+			<h1 class="news_title">News Section</h1>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Vela Games. All rights reserved.</p>
+	</footer>
+
+  </body>
+</html>
