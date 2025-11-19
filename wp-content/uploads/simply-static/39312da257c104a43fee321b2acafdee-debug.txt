@@ -1,289 +1,878 @@
-[2025-11-18 23:10:18] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
-[2025-11-18 23:10:18] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
-[2025-11-18 23:10:18] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
-[2025-11-18 23:10:19] [class-ss-archive-creation-job.php:194] Current task: setup
-[2025-11-18 23:10:19] [class-ss-archive-creation-job.php:208] Performing task: setup
-[2025-11-18 23:10:19] [class-ss-task.php:44] Status message: [setup] Setting up
-[2025-11-18 23:10:19] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418\
-[2025-11-18 23:10:19] [class-ss-setup-task.php:72] Adding origin URL to queue: http://127.0.0.1/mywebsite/
-[2025-11-18 23:10:19] [class-ss-setup-task.php:169] File doesn't exist: xampp\htdocs\mywebsite\wp-content\uploads
-[2025-11-18 23:10:19] [class-ss-setup-task.php:169] File doesn't exist: xampp\htdocs\mywebsite\wp-content
-[2025-11-18 23:10:19] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
-[2025-11-18 23:10:19] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
-[2025-11-18 23:10:19] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
-[2025-11-18 23:10:19] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2025-11-18 23:10:19] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/
-[2025-11-18 23:10:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2025-11-18 23:10:19] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcdbdd0bf-kPSXfS.tmp
-[2025-11-18 23:10:19] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/ - Is local asset: No
-[2025-11-18 23:10:19] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/?simply_static_page=5796
-[2025-11-18 23:10:19] [class-ss-url-fetcher.php:307] Fetching URL: http://127.0.0.1/mywebsite/?simply_static_page=5796
-[2025-11-18 23:10:21] [class-ss-url-fetcher.php:146] Filesize: 67644 bytes
-[2025-11-18 23:10:21] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2025-11-18 23:10:21] [class-ss-url-fetcher.php:289] New filename for static page: /index.html
-[2025-11-18 23:10:21] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcdbdd0bf-kPSXfS.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/index.html
-[2025-11-18 23:10:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:21] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
-[2025-11-18 23:10:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:21] [class-ss-page.php:128] Checking Content Identical:16cdc208675b22be62a92d797dc6a7697ce451fa===. Value: FALSE
-[2025-11-18 23:10:21] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2025-11-18 23:10:21] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
-[2025-11-18 23:10:22] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
-[2025-11-18 23:10:22] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:69] Total pages: 17; Pages remaining: 16
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-includes/js/jquery/jquery.min.js
-[2025-11-18 23:10:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 17
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcde046a6-CGwGDy.tmp
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-includes/js/jquery/jquery.min.js - Is local asset: Yes
-[2025-11-18 23:10:22] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-includes/js/jquery/jquery.min.js?simply_static_page=5797
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:113] Local path: /wp-includes/js/jquery/jquery.min.js - Full file path: C:\xampp\htdocs\mywebsite/wp-includes/js/jquery/jquery.min.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-includes/js/jquery/jquery.min.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:146] Filesize: 87555 bytes
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: application/javascript
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:289] New filename for static page: /wp-includes/js/jquery/jquery.min.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcde046a6-CGwGDy.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-includes/js/jquery/jquery.min.js
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:22] [class-ss-page.php:128] Checking Content Identical:f1283d45dc3e33b703b48c9a9d9495b3b49fd2a1===. Value: FALSE
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-includes/js/jquery/jquery-migrate.min.js
-[2025-11-18 23:10:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 17
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcde2d46f-RTzbXM.tmp
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-includes/js/jquery/jquery-migrate.min.js - Is local asset: Yes
-[2025-11-18 23:10:22] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=5798
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:113] Local path: /wp-includes/js/jquery/jquery-migrate.min.js - Full file path: C:\xampp\htdocs\mywebsite/wp-includes/js/jquery/jquery-migrate.min.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-includes/js/jquery/jquery-migrate.min.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:146] Filesize: 13579 bytes
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: application/javascript
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:289] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcde2d46f-RTzbXM.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-includes/js/jquery/jquery-migrate.min.js
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:22] [class-ss-page.php:128] Checking Content Identical:2b3f380f212c8c64e79db1f47fa25c114afe6fbb===. Value: FALSE
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/js/global.js
-[2025-11-18 23:10:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 17
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcde4fa08-2KOeU7.tmp
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/js/global.js - Is local asset: Yes
-[2025-11-18 23:10:22] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/js/global.js?simply_static_page=5799
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/twentyseventeen/assets/js/global.js - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/js/global.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/js/global.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:146] Filesize: 7825 bytes
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: application/javascript
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/twentyseventeen/assets/js/global.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcde4fa08-2KOeU7.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-content/themes/twentyseventeen/assets/js/global.js
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:22] [class-ss-page.php:128] Checking Content Identical:97c3e00962157773e293e0715dc533e221f62b18===. Value: FALSE
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js
-[2025-11-18 23:10:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 17
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcde5d5e6-HY9OOH.tmp
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js - Is local asset: Yes
-[2025-11-18 23:10:22] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js?simply_static_page=5800
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:146] Filesize: 5817 bytes
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: application/javascript
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcde5d5e6-HY9OOH.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:22] [class-ss-page.php:128] Checking Content Identical:1f1860080bef5852db24e9c7c30caf655320ea3e===. Value: FALSE
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/2025/02/17/hello-world/
-[2025-11-18 23:10:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 17
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcde6a518-AJn7xY.tmp
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/2025/02/17/hello-world/ - Is local asset: No
-[2025-11-18 23:10:22] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/2025/02/17/hello-world/?simply_static_page=5801
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:307] Fetching URL: http://127.0.0.1/mywebsite/2025/02/17/hello-world/?simply_static_page=5801
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:146] Filesize: 68617 bytes
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/html
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:289] New filename for static page: /2025/02/17/hello-world/index.html
-[2025-11-18 23:10:22] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcde6a518-AJn7xY.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/2025/02/17/hello-world/index.html
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:23] [class-ss-page.php:128] Checking Content Identical:e97a8a667d2c133de953f4d461854600fd7e0d04===. Value: FALSE
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/2025/02/
-[2025-11-18 23:10:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 17
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcdf1867b-zYMybw.tmp
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/2025/02/ - Is local asset: No
-[2025-11-18 23:10:23] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/2025/02/?simply_static_page=5802
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:307] Fetching URL: http://127.0.0.1/mywebsite/2025/02/?simply_static_page=5802
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:146] Filesize: 1261 bytes
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/html
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:289] New filename for static page: /2025/02/index.html
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcdf1867b-zYMybw.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/2025/02/index.html
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:23] [class-ss-page.php:128] Checking Content Identical:9f75ebac318051f3da2f001f8c66dd1e1d98c8ea===. Value: FALSE
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/category/uncategorized/
-[2025-11-18 23:10:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 17
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcdf2a1eb-awBenk.tmp
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/category/uncategorized/ - Is local asset: No
-[2025-11-18 23:10:23] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/category/uncategorized/?simply_static_page=5803
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:307] Fetching URL: http://127.0.0.1/mywebsite/category/uncategorized/?simply_static_page=5803
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:146] Filesize: 61268 bytes
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/html
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:289] New filename for static page: /category/uncategorized/index.html
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcdf2a1eb-awBenk.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/category/uncategorized/index.html
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:23] [class-ss-page.php:128] Checking Content Identical:e7cafec5fb68834b46288170b2bfa195ab0bc917===. Value: FALSE
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/images/header.jpg
-[2025-11-18 23:10:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 17
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcdfc67b8-dtowsi.tmp
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/images/header.jpg - Is local asset: Yes
-[2025-11-18 23:10:23] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/images/header.jpg?simply_static_page=5804
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/twentyseventeen/assets/images/header.jpg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/images/header.jpg
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/images/header.jpg
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:146] Filesize: 117899 bytes
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/jpeg
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/twentyseventeen/assets/images/header.jpg
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcdfc67b8-dtowsi.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-content/themes/twentyseventeen/assets/images/header.jpg
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:23] [class-ss-page.php:128] Checking Content Identical:8e6b261e2c3d19bdfc718a824b803e2870a26265===. Value: FALSE
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/feed/
-[2025-11-18 23:10:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 17
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://127.0.0.1/mywebsite/feed/
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/comments/feed/
-[2025-11-18 23:10:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 17
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://127.0.0.1/mywebsite/comments/feed/
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-includes/css/dist/block-library/style.min.css
-[2025-11-18 23:10:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 17
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfcdfd7c5c-NIarcL.tmp
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-includes/css/dist/block-library/style.min.css - Is local asset: Yes
-[2025-11-18 23:10:23] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-includes/css/dist/block-library/style.min.css?simply_static_page=5807
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:113] Local path: /wp-includes/css/dist/block-library/style.min.css - Full file path: C:\xampp\htdocs\mywebsite/wp-includes/css/dist/block-library/style.min.css
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-includes/css/dist/block-library/style.min.css
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:146] Filesize: 114716 bytes
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/css
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:289] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
-[2025-11-18 23:10:23] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfcdfd7c5c-NIarcL.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-includes/css/dist/block-library/style.min.css
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:24] [class-ss-page.php:128] Checking Content Identical:ffc6c3d65b95ef374c46aea6d398829879a1ff8f===. Value: FALSE
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css
-[2025-11-18 23:10:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 17
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfce0040a3-Ob2g8J.tmp
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css - Is local asset: Yes
-[2025-11-18 23:10:24] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css?simply_static_page=5808
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:146] Filesize: 14881 bytes
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfce0040a3-Ob2g8J.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:24] [class-ss-page.php:128] Checking Content Identical:d7f7d75709716deac8b904cb0db35db7ebe237ab===. Value: FALSE
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/style.css
-[2025-11-18 23:10:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 17
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfce02b8ef-mQeLtp.tmp
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/style.css - Is local asset: Yes
-[2025-11-18 23:10:24] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/style.css?simply_static_page=5809
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/twentyseventeen/style.css - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/style.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/style.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:146] Filesize: 84137 bytes
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/twentyseventeen/style.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfce02b8ef-mQeLtp.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-content/themes/twentyseventeen/style.css
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:24] [class-ss-page.php:128] Checking Content Identical:8cd7a8941cda0f1e487ba631b152f8957b187ca3===. Value: FALSE
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/css/blocks.css
-[2025-11-18 23:10:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 17
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:84] URL is not being excluded
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691cfce04ebf4-j3TQsB.tmp
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/css/blocks.css - Is local asset: Yes
-[2025-11-18 23:10:24] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/twentyseventeen/assets/css/blocks.css?simply_static_page=5810
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/twentyseventeen/assets/css/blocks.css - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/css/blocks.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/twentyseventeen/assets/css/blocks.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:146] Filesize: 11231 bytes
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/twentyseventeen/assets/css/blocks.css
-[2025-11-18 23:10:24] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691cfce04ebf4-j3TQsB.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418/wp-content/themes/twentyseventeen/assets/css/blocks.css
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2025-11-18 23:10:24] [class-ss-page.php:128] Checking Content Identical:05c779a30a7260770688f4bfb5f14dd975c84189===. Value: FALSE
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-json/
-[2025-11-18 23:10:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 17
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://127.0.0.1/mywebsite/wp-json/
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/xmlrpc.php
-[2025-11-18 23:10:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 17
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://127.0.0.1/mywebsite/xmlrpc.php
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
-[2025-11-18 23:10:24] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 17 pages/files
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
-[2025-11-18 23:10:24] [class-ss-fetch-urls-task.php:69] Total pages: 17; Pages remaining: 0
-[2025-11-18 23:10:24] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 17 of 17 pages/files
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:233] We've found our next task: transfer_files_locally
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:263] Cleaning on first run for task: transfer_files_locally
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:194] Current task: transfer_files_locally
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:208] Performing task: transfer_files_locally
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery.min.js
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-includes/js/jquery
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery-migrate.min.js
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-includes/js/jquery
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentyseventeen/assets/js/global.js
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/twentyseventeen/assets/js
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/twentyseventeen/assets/js
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /2025/02/17/hello-world/index.html
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/2025/02/17/hello-world
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /2025/02/index.html
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/2025/02
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/uncategorized/index.html
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/category/uncategorized
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentyseventeen/assets/images/header.jpg
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/twentyseventeen/assets/images
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-includes/css/dist/block-library
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentyseventeen/assets/fonts/font-libre-franklin.css
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/twentyseventeen/assets/fonts
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentyseventeen/style.css
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/twentyseventeen
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/twentyseventeen/assets/css/blocks.css
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/twentyseventeen/assets/css
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:13. Processed Pages: 13
-[2025-11-18 23:10:24] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 13 of 13 files
-[2025-11-18 23:10:24] [trait-can-process-pages.php:118] Total pages: 13; Pages remaining: 0
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
-[2025-11-18 23:10:24] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763507418\404\index.html
-[2025-11-18 23:10:24] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="http://lucapulvirenti.com/" target="_blank">http://lucapulvirenti.com/</a>
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:194] Current task: wrapup
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:208] Performing task: wrapup
-[2025-11-18 23:10:24] [class-ss-wrapup-task.php:23] Deleting temporary files
-[2025-11-18 23:10:24] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:273] Completing the job
-[2025-11-18 23:10:24] [class-ss-archive-creation-job.php:413] Status message: [done] Done! Finished in 00:00:06
+[2025-11-19 01:17:46] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-11-19 01:17:46] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-11-19 01:17:46] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-11-19 01:17:47] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-11-19 01:17:47] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-11-19 01:17:47] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-11-19 01:17:47] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066\
+[2025-11-19 01:17:47] [class-ss-setup-task.php:72] Adding origin URL to queue: http://127.0.0.1/mywebsite/
+[2025-11-19 01:17:48] [class-ss-setup-task.php:169] File doesn't exist: xampp\htdocs\mywebsite\wp-content\uploads
+[2025-11-19 01:17:48] [class-ss-setup-task.php:169] File doesn't exist: xampp\htdocs\mywebsite\wp-content
+[2025-11-19 01:17:48] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-11-19 01:17:48] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-11-19 01:17:48] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-11-19 01:17:48] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-11-19 01:17:48] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/
+[2025-11-19 01:17:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-11-19 01:17:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1abc0a186-A3Rklp.tmp
+[2025-11-19 01:17:48] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/ - Is local asset: No
+[2025-11-19 01:17:48] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/?simply_static_page=5813
+[2025-11-19 01:17:48] [class-ss-url-fetcher.php:307] Fetching URL: http://127.0.0.1/mywebsite/?simply_static_page=5813
+[2025-11-19 01:17:49] [class-ss-url-fetcher.php:146] Filesize: 199793 bytes
+[2025-11-19 01:17:49] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-11-19 01:17:49] [class-ss-url-fetcher.php:289] New filename for static page: /index.html
+[2025-11-19 01:17:49] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1abc0a186-A3Rklp.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/index.html
+[2025-11-19 01:17:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:159] Adding 49 URLs to the queue
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:50] [class-ss-page.php:128] Checking Content Identical:55c47552d03b604652d9d31d28a6d892c9eb0f2b===. Value: FALSE
+[2025-11-19 01:17:50] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-11-19 01:17:50] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-11-19 01:17:50] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-11-19 01:17:50] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:69] Total pages: 50; Pages remaining: 49
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-11-19 01:17:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 50
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1abe9d3e6-P8FZpv.tmp
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js - Is local asset: Yes
+[2025-11-19 01:17:50] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=5814
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:113] Local path: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js - Full file path: C:\xampp\htdocs\mywebsite/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:146] Filesize: 3300 bytes
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: application/javascript
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:289] New filename for static page: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1abe9d3e6-P8FZpv.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:50] [class-ss-page.php:128] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/js/frontend.js
+[2025-11-19 01:17:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 50
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1abeadd8a-adLGYm.tmp
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/js/frontend.js - Is local asset: Yes
+[2025-11-19 01:17:50] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/js/frontend.js?simply_static_page=5815
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/js/frontend.js - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/js/frontend.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/js/frontend.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:146] Filesize: 635 bytes
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: application/javascript
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/js/frontend.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1abeadd8a-adLGYm.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/js/frontend.js
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:50] [class-ss-page.php:128] Checking Content Identical:d2b2b86cfc400b2e66852ce85164ccba902d6ce8===. Value: FALSE
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/custom/main.js
+[2025-11-19 01:17:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 50
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1abeb8700-Y1bxFc.tmp
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/custom/main.js - Is local asset: Yes
+[2025-11-19 01:17:50] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/custom/main.js?simply_static_page=5816
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/custom/main.js - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/custom/main.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/custom/main.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:146] Filesize: 5761 bytes
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: application/javascript
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/custom/main.js
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1abeb8700-Y1bxFc.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/custom/main.js
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:50] [class-ss-page.php:128] Checking Content Identical:c3098dc506f84221543dc293bf6cccd9ce7f5afa===. Value: FALSE
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite
+[2025-11-19 01:17:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 50
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1abec40b3-3tsDgl.tmp
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite - Is local asset: No
+[2025-11-19 01:17:50] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite?simply_static_page=5817
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:307] Fetching URL: http://127.0.0.1/mywebsite?simply_static_page=5817
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:146] Filesize: 358 bytes
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:175] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:203] We weren't able to establish a filename; deleting temp file
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:217] redirect_url: http://127.0.0.1/mywebsite/
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:226] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/2025/02/17/hello-world/
+[2025-11-19 01:17:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 50
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1abed116c-rAzOWQ.tmp
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/2025/02/17/hello-world/ - Is local asset: No
+[2025-11-19 01:17:50] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/2025/02/17/hello-world/?simply_static_page=5818
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:307] Fetching URL: http://127.0.0.1/mywebsite/2025/02/17/hello-world/?simply_static_page=5818
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:146] Filesize: 68617 bytes
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/html
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:289] New filename for static page: /2025/02/17/hello-world/index.html
+[2025-11-19 01:17:50] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1abed116c-rAzOWQ.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/2025/02/17/hello-world/index.html
+[2025-11-19 01:17:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:51] [class-ss-page.php:128] Checking Content Identical:e97a8a667d2c133de953f4d461854600fd7e0d04===. Value: FALSE
+[2025-11-19 01:17:51] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/author/mywebsite/
+[2025-11-19 01:17:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 50
+[2025-11-19 01:17:51] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1abf6a9b5-DLxPcm.tmp
+[2025-11-19 01:17:51] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/author/mywebsite/ - Is local asset: No
+[2025-11-19 01:17:51] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/author/mywebsite/?simply_static_page=5819
+[2025-11-19 01:17:51] [class-ss-url-fetcher.php:307] Fetching URL: http://127.0.0.1/mywebsite/author/mywebsite/?simply_static_page=5819
+[2025-11-19 01:17:51] [class-ss-url-fetcher.php:146] Filesize: 49389 bytes
+[2025-11-19 01:17:51] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/html
+[2025-11-19 01:17:51] [class-ss-url-fetcher.php:289] New filename for static page: /author/mywebsite/index.html
+[2025-11-19 01:17:51] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1abf6a9b5-DLxPcm.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/author/mywebsite/index.html
+[2025-11-19 01:17:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:814092a0e8005239584636bf56ecfe381fe502d4===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/site-white-logo.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac01ac92-HwukAZ.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/site-white-logo.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/site-white-logo.webp?simply_static_page=5820
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/site-white-logo.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/site-white-logo.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/site-white-logo.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 764 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/site-white-logo.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac01ac92-HwukAZ.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/site-white-logo.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:30ae95d28f98173c25fff423278b6088bda42b25===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/people.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac024d2c-PTiY11.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/people.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/people.webp?simply_static_page=5821
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/people.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/people.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/people.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 8878 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/people.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac024d2c-PTiY11.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/people.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:85d0dde43e068dc85a5f48629fc46687a3f5ffe9===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/banner-two.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac02f441-aOITuk.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/banner-two.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/banner-two.webp?simply_static_page=5822
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/banner-two.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/banner-two.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/banner-two.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 179742 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/banner-two.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac02f441-aOITuk.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/banner-two.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:498c6e744238082c91aebea6d3cee7ca1a9a9769===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Vector.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac039ea5-n3z5YF.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Vector.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Vector.webp?simply_static_page=5823
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/Vector.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Vector.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Vector.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 1164 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/Vector.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac039ea5-n3z5YF.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/Vector.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:dc2f57f50a180ef73d8c50693aa4df772fccdd6b===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Cup.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac044487-R16Ct2.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Cup.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Cup.webp?simply_static_page=5824
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/Cup.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Cup.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Cup.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 1364 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/Cup.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac044487-R16Ct2.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/Cup.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:72b983859bdddad21587c34c721d5834e072c2e3===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/crown-line.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac04eb62-TMKkwL.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/crown-line.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/crown-line.webp?simply_static_page=5825
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/crown-line.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/crown-line.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/crown-line.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 1348 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/crown-line.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac04eb62-TMKkwL.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/crown-line.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:75d43d40c9b6bd0cc6b83b84ce4cd8570c0aa602===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/share-circle.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac0584ba-PPXwxU.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/share-circle.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/share-circle.webp?simply_static_page=5826
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/share-circle.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/share-circle.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/share-circle.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 1364 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/share-circle.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac0584ba-PPXwxU.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/share-circle.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:4503c64f310c3844e6c5d1848081a2c3c01bf315===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/server-stack.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac061e37-gFtYai.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/server-stack.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/server-stack.svg?simply_static_page=5827
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/server-stack.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/server-stack.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/server-stack.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 1193 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/server-stack.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac061e37-gFtYai.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/server-stack.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:825158a76e36ef96c807ca2a8a4689a24524e601===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/swatch.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac06fffc-pjaG26.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/swatch.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/swatch.svg?simply_static_page=5828
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/swatch.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/swatch.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/swatch.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 1025 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/swatch.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac06fffc-pjaG26.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/swatch.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:57a1956ed22927d55ffeea8ba1a75765c8fa3524===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/about-team.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac07b65f-dLZvw4.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/about-team.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/about-team.webp?simply_static_page=5829
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/about-team.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/about-team.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/about-team.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 299944 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/about-team.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac07b65f-dLZvw4.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/about-team.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:c2d892bc4111b8286f24ccd794c90b2a5b8e33d4===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/service-arrow.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac086e5a-HzhXH8.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/service-arrow.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/service-arrow.webp?simply_static_page=5830
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/service-arrow.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/service-arrow.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/service-arrow.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 720 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/service-arrow.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac086e5a-HzhXH8.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/service-arrow.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:bf6b68cf3e370bdb2f769167aa05373f9af116e4===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/square-3-stack-3d.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac0902ec-pSa8FB.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/square-3-stack-3d.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/square-3-stack-3d.svg?simply_static_page=5831
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/square-3-stack-3d.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/square-3-stack-3d.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/square-3-stack-3d.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 1287 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/square-3-stack-3d.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac0902ec-pSa8FB.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/square-3-stack-3d.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:34d86b3a203128e247ceeadbb754541b6b16b1d3===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac09e947-MNY6ny.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo.svg?simply_static_page=5832
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/brand-logo.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 7008 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/brand-logo.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac09e947-MNY6ny.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/brand-logo.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:e575dc8565e009737f2104570b308862b4d68815===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-1.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac0aafb4-vworuA.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-1.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-1.svg?simply_static_page=5833
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/brand-logo-1.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-1.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-1.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 3399 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/brand-logo-1.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac0aafb4-vworuA.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/brand-logo-1.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:b96a8917c1b693e3480d002c345a6db1938df697===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-2.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac0b75e2-zmuxCW.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-2.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-2.svg?simply_static_page=5834
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/brand-logo-2.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-2.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-2.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 3158 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/brand-logo-2.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac0b75e2-zmuxCW.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/brand-logo-2.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:1cfe8929022ba181f51fc3e31dec40ad3f328b1d===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-3.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac0c3776-EmIaN1.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-3.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-3.svg?simply_static_page=5835
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/brand-logo-3.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-3.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-3.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 7177 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/brand-logo-3.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac0c3776-EmIaN1.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/brand-logo-3.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:5f462593c5f7eda5781032ab07447b5916a92655===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-4.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac0cea8e-MdNubU.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-4.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-4.svg?simply_static_page=5836
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/brand-logo-4.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-4.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-4.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 4022 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/brand-logo-4.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac0cea8e-MdNubU.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/brand-logo-4.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:0814eb78e3f9499c5f3b8c2c4ea91fd123baadf4===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-5.svg
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac0de07f-1itfCT.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-5.svg - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/brand-logo-5.svg?simply_static_page=5837
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/brand-logo-5.svg - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-5.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/brand-logo-5.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 4555 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/svg+xml
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/brand-logo-5.svg
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac0de07f-1itfCT.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/brand-logo-5.svg
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:626de2413b88bad6d67d688571ecc5067ae23d03===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/testomonial-star.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 50
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac0ea38b-XeHDhg.tmp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/testomonial-star.webp - Is local asset: Yes
+[2025-11-19 01:17:52] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/testomonial-star.webp?simply_static_page=5838
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/testomonial-star.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/testomonial-star.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/testomonial-star.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:146] Filesize: 890 bytes
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/testomonial-star.webp
+[2025-11-19 01:17:52] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac0ea38b-XeHDhg.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/testomonial-star.webp
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:52] [class-ss-page.php:128] Checking Content Identical:406455e4d44feee0213c8e0ee9dd8a70c9edf43a===. Value: FALSE
+[2025-11-19 01:17:52] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-1.webp
+[2025-11-19 01:17:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac10138d-8ryzGo.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-1.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-1.webp?simply_static_page=5839
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/Testimonials-1.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Testimonials-1.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Testimonials-1.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 2702 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/Testimonials-1.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac10138d-8ryzGo.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/Testimonials-1.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:6aea41c228923f2b0b283de06ecf7697a7efb580===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-2.webp
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac10be27-04YT0E.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-2.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-2.webp?simply_static_page=5840
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/Testimonials-2.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Testimonials-2.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Testimonials-2.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 3338 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/Testimonials-2.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac10be27-04YT0E.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/Testimonials-2.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:dc112465125c469451e0207a10d659ebcc98dfc9===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-3.webp
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac114e48-2xk92C.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-3.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/Testimonials-3.webp?simply_static_page=5841
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/Testimonials-3.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Testimonials-3.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/Testimonials-3.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 2884 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/Testimonials-3.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac114e48-2xk92C.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/Testimonials-3.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:8108f2c101dddf2050cc775fb26b240779a8b92a===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/faq-logo.webp
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac11d117-LtcRfK.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/faq-logo.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/faq-logo.webp?simply_static_page=5842
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/faq-logo.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/faq-logo.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/faq-logo.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 80658 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/faq-logo.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac11d117-LtcRfK.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/faq-logo.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:c3232d0a626b3b7771e205954ad05c3ed440e293===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/down-arro.webp
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac12793c-0BJl3E.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/down-arro.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/image/down-arro.webp?simply_static_page=5843
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/image/down-arro.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/down-arro.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/image/down-arro.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 302 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/image/down-arro.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac12793c-0BJl3E.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/image/down-arro.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:244d090ee56f8ad99363d93565f92dd723bdf305===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/32.webp
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac1309e7-prMOAt.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/32.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/32.webp?simply_static_page=5844
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/32.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/32.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/32.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 2784 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/32.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac1309e7-prMOAt.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/32.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:0027a764e51c7e439b948ef52ab7d3f09412c1fd===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/200K.webp
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac1390b5-nTN8LG.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/200K.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/200K.webp?simply_static_page=5845
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/200K.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/200K.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/200K.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 4432 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/200K.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac1390b5-nTN8LG.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/200K.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:2128f3cce1b386cc501fa4b1a1aa04e5e04f6d3d===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/400.webp
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac141545-8iaRR3.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/400.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/400.webp?simply_static_page=5846
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/400.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/400.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/400.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 4586 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/400.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac141545-8iaRR3.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/400.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:d0cf611fb49e4ca1bc9f072ea1b00781344abd29===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/4.5.webp
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac14a779-5Ql2l2.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/4.5.webp - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis//assets/image/4.5.webp?simply_static_page=5847
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis//assets/image/4.5.webp - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/4.5.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis//assets/image/4.5.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 2650 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: image/webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis//assets/image/4.5.webp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac14a779-5Ql2l2.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis//assets/image/4.5.webp
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:3c69351a3db0203ad926bd32e4cde9357d85faf6===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/feed/
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://127.0.0.1/mywebsite/feed/
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/comments/feed/
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://127.0.0.1/mywebsite/comments/feed/
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-includes/blocks/image/style.min.css
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac15834c-8cMGE8.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-includes/blocks/image/style.min.css - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-includes/blocks/image/style.min.css?simply_static_page=5850
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-includes/blocks/image/style.min.css - Full file path: C:\xampp\htdocs\mywebsite/wp-includes/blocks/image/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-includes/blocks/image/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 6708 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac15834c-8cMGE8.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-includes/blocks/image/style.min.css
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:3ab2fa86c058d67e8324a0f8ba3eedd5e011b41a===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-includes/blocks/navigation/style.min.css
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac167343-f5Ri2M.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-includes/blocks/navigation/style.min.css - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-includes/blocks/navigation/style.min.css?simply_static_page=5851
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-includes/blocks/navigation/style.min.css - Full file path: C:\xampp\htdocs\mywebsite/wp-includes/blocks/navigation/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-includes/blocks/navigation/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 16384 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac167343-f5Ri2M.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-includes/blocks/navigation/style.min.css
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-includes/blocks/social-links/style.min.css
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac18496a-cWA1Fx.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-includes/blocks/social-links/style.min.css - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-includes/blocks/social-links/style.min.css?simply_static_page=5852
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-includes/blocks/social-links/style.min.css - Full file path: C:\xampp\htdocs\mywebsite/wp-includes/blocks/social-links/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-includes/blocks/social-links/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 11600 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac18496a-cWA1Fx.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-includes/blocks/social-links/style.min.css
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:31aa11f7c686b08c09618aad559b886161247a72===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/style.css
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac1a0f11-Yd1HQJ.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/style.css - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/style.css?simply_static_page=5853
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/style.css - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/style.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/style.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 6990 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: text/css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/style.css
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac1a0f11-Yd1HQJ.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/style.css
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:b13a4161372f3faf88a55ded07d259b3ff66de3c===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-json/
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://127.0.0.1/mywebsite/wp-json/
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/xmlrpc.php
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://127.0.0.1/mywebsite/xmlrpc.php
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac1b6aa5-UMZh6A.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-includes/js/dist/script-modules/interactivity/index.min.js - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=5856
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-includes/js/dist/script-modules/interactivity/index.min.js - Full file path: C:\xampp\htdocs\mywebsite/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 36946 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: application/javascript
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac1b6aa5-UMZh6A.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:2a62fbfe456849045bc616b95803f580d9fe448a===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac1d1632-RyInSi.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2 - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2?simply_static_page=5857
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2 - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 31048 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: font/woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac1d1632-RyInSi.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:c1e76bc202c50b85f622a2f2699bc0ba69dcfeb6===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac1dba91-tI827z.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2 - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2?simply_static_page=5858
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2 - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 42356 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: font/woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac1dba91-tI827z.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:37acd0c76c1833c57e4e3ecb9530be4bf5b6ca05===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac1e7496-4dpLUp.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2 - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2?simply_static_page=5859
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2 - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:146] Filesize: 57132 bytes
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: font/woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac1e7496-4dpLUp.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:53] [class-ss-page.php:128] Checking Content Identical:444e297898be0dc256fd3a3a043c4559e045696a===. Value: FALSE
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2
+[2025-11-19 01:17:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 50
+[2025-11-19 01:17:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac1f2639-pbUwAU.tmp
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2 - Is local asset: Yes
+[2025-11-19 01:17:53] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2?simply_static_page=5860
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2 - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2
+[2025-11-19 01:17:53] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:146] Filesize: 60328 bytes
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: font/woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac1f2639-pbUwAU.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:54] [class-ss-page.php:128] Checking Content Identical:abea21eb1528c014a9b733cb20b339fc92bce4bb===. Value: FALSE
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2
+[2025-11-19 01:17:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 50
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac2080dd-SEdFF7.tmp
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2 - Is local asset: Yes
+[2025-11-19 01:17:54] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2?simply_static_page=5861
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2 - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:146] Filesize: 60952 bytes
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: font/woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac2080dd-SEdFF7.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:54] [class-ss-page.php:128] Checking Content Identical:2661c82c875d10f9e4943cd5e76847931c745eb5===. Value: FALSE
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:73] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2
+[2025-11-19 01:17:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 50
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Pc\AppData\Local\Temp/691d1ac21262e-LvVYdT.tmp
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:101] URL: http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2 - Is local asset: Yes
+[2025-11-19 01:17:54] [class-ss-page-handler.php:53] URL Prepared:http://127.0.0.1/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2?simply_static_page=5862
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:113] Local path: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2 - Full file path: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:117] Copying local file directly: C:\xampp\htdocs\mywebsite/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:146] Filesize: 61368 bytes
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:175] http_status_code: 200 | content_type: font/woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:289] New filename for static page: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2
+[2025-11-19 01:17:54] [class-ss-url-fetcher.php:199] Renaming temp file from C:\Users\Pc\AppData\Local\Temp/691d1ac21262e-LvVYdT.tmp to C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066/wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-11-19 01:17:54] [class-ss-page.php:128] Checking Content Identical:3cd2543709fe9fe0dc13fdde7790cc272866017f===. Value: FALSE
+[2025-11-19 01:17:54] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 50 pages/files
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-11-19 01:17:54] [class-ss-fetch-urls-task.php:69] Total pages: 50; Pages remaining: 0
+[2025-11-19 01:17:54] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 50 of 50 pages/files
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:233] We've found our next task: transfer_files_locally
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:263] Cleaning on first run for task: transfer_files_locally
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:194] Current task: transfer_files_locally
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:208] Performing task: transfer_files_locally
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-includes/js/dist/script-modules/block-library/navigation
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/js/frontend.js
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/js
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/custom/main.js
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/custom
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /2025/02/17/hello-world/index.html
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/2025/02/17/hello-world
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /author/mywebsite/index.html
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/author/mywebsite
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/site-white-logo.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/people.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/banner-two.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/Vector.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/Cup.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/crown-line.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/share-circle.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/server-stack.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/swatch.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/about-team.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/service-arrow.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/square-3-stack-3d.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/brand-logo.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/brand-logo-1.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/brand-logo-2.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/brand-logo-3.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/brand-logo-4.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/brand-logo-5.svg
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/testomonial-star.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/Testimonials-1.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/Testimonials-2.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/Testimonials-3.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/faq-logo.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/image/down-arro.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/32.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/200K.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/400.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis//assets/image/4.5.webp
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis//assets/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/image/style.min.css
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-includes/blocks/image
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/navigation/style.min.css
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-includes/blocks/navigation
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/social-links/style.min.css
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-includes/blocks/social-links
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/style.css
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-includes/js/dist/script-modules/interactivity
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-Bold.woff2
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/fonts/plus-jakarta/PlusJakartaSans-SemiBold.woff2
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/fonts/plus-jakarta
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Regular.woff2
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Medium.woff2
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-SemiBold.woff2
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/frontis/assets/fonts/work-sans/WorkSans-Bold.woff2
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/mywebsite/wp-content/themes/frontis/assets/fonts/work-sans
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:45. Processed Pages: 45
+[2025-11-19 01:17:54] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 45 of 45 files
+[2025-11-19 01:17:54] [trait-can-process-pages.php:118] Total pages: 45; Pages remaining: 0
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-11-19 01:17:54] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\xampp\htdocs\mywebsite/wp-content/uploads\simply-static\temp-files/simply-static-1-1763515066\404\index.html
+[2025-11-19 01:17:54] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="http://lucapulvirenti.com/" target="_blank">http://lucapulvirenti.com/</a>
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-11-19 01:17:54] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-11-19 01:17:54] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-11-19 01:17:54] [class-ss-archive-creation-job.php:413] Status message: [done] Done! Finished in 00:00:08
